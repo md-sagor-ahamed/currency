@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(207, 207, 207);
+}
+
+.containerWrapper{
+    background: #fff;
+    width: 550px;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.paragraph {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.rateAndCountry{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+input{
+    margin: 10px;
+    width: 212px;
+}
+select {
+    width: 212px;
+    padding: 4px;
+    cursor: pointer;
+}
+input, select {
+    outline: none;
+}
+input[type="nomber"]{
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
